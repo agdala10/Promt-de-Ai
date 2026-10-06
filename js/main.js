@@ -10,7 +10,7 @@ function render(list) {
   cardsEl.innerHTML = list.map(p => `
     <div class="col-12 col-sm-6 col-lg-3">
       <div class="card h-100 shadow-sm">
-        <img src="${p.image}" class="card-img-top" alt="${p.title}" loading="lazy" />
+        <img src="${p.image}" class="card-img-top" alt="${p.title}" loading="lazy" onclick="viewPrompt(${p.id})" title="Haz clic para ampliar" style="cursor:pointer" />
         <div class="card-body d-flex flex-column">
           <span class="badge badge-cat align-self-start mb-2">${p.category}</span>
           <h5 class="card-title">${p.title}</h5>
@@ -47,6 +47,9 @@ function viewPrompt(id) {
   currentPrompt = p.prompt;
   document.getElementById('modalTitle').textContent = p.title;
   document.getElementById('modalImg').src = p.image;
+  document.getElementById('modalImg').onclick = () => window.open(p.image, '_blank');
+  document.getElementById('modalImg').style.cursor = 'zoom-in';
+  document.getElementById('modalImg').title = 'Haz clic para ver la imagen completa';
   document.getElementById('modalText').textContent = p.prompt;
   modal.show();
 }
