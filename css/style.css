@@ -34,13 +34,14 @@ body {
   overflow: hidden;
   white-space: pre-wrap;
 }
-.card-title { color: #ffffff; }
+.card-title, h5.card-title, .card h5 { color: #ffffff !important; }
 .badge-cat { background: linear-gradient(90deg,#6366f1,#8b5cf6); }
 
 .btn-primary { background: linear-gradient(90deg,#6366f1,#8b5cf6); border: none; }
 .btn-primary:hover { filter: brightness(1.15); box-shadow: 0 8px 20px rgba(99,102,241,.5); }
 
 h2 { color: #ffffff; }
+.modal-title, #modalTitle { color: #ffffff !important; }
 .toast-custom {
   position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px);
   background: #16a34a; color: #fff; padding: 12px 20px; border-radius: 999px;
