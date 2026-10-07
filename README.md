@@ -32,6 +32,9 @@ Publicado con **GitHub Pages**: https://agdala10.github.io/Promt-de-Ai/
     <td align="center"><a href="https://agdala10.github.io/Promt-de-Ai/"><img src="assets/photopro4/imagen.jpg" width="120" alt="Caminata en la Hora Dorada"/></a><br/><sub>Hora Dorada</sub></td>
     <td align="center"><a href="https://agdala10.github.io/Promt-de-Ai/"><img src="assets/sololeveling/imagen.jpg" width="120" alt="Sung Jin-Woo (Solo Leveling)"/></a><br/><sub>Sung Jin-Woo (Solo Leveling)</sub></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://agdala10.github.io/Promt-de-Ai/"><img src="assets/minimi/imagen.jpg" width="120" alt="Mini Yo (Minimi)"/></a><br/><sub>Mini Yo (Minimi)</sub></td>
+  </tr>
 </table>
 
 👉 **Para copiar cualquier prompt, visita: https://agdala10.github.io/Promt-de-Ai/**
@@ -50,7 +53,7 @@ Publicado con **GitHub Pages**: https://agdala10.github.io/Promt-de-Ai/
 
 ```js
 {
-  "id": 16,
+  "id": 17,
   "title": "Mi prompt",
   "category": "Fotorealista",
   "image": "assets/mi-carpeta/imagen.jpg",
