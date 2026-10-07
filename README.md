@@ -65,4 +65,4 @@ Publicado con **GitHub Pages**: https://agdala10.github.io/Promt-de-Ai/
 
 ---
 
-✨ Power by Agdala 2026 — Contacto: agdala.s@gmail.com
+✨ Power by Agdala 2026 — Contacto: agdala.sv@gmail.com
